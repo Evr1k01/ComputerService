@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import "variables";
+
+.base
+{
+    &__app-bar
+    {
+        position: fixed;
+
+        &-row
+        {
+            padding: 0 40px !important;
+        }
+
+        &-logo{
+            width: 50px;
+            height: 50px;
+
+            &-title{
+                font-family: $strength-font;
+                font-size: 2rem;
+            }
+
+            &-span{
+                font-family: $strength-font;
+                font-size: 2rem;
+                color: #a12a4b;
+            }
+        }
+
+        &-title
+        {
+            color: black;
+            font-family: $btn-font;
+            text-decoration: none;
+
+            &:hover
+            {
+                border-bottom: 3px solid #a12a4b;
+                transition: border-bottom 0.5s ease-in-out;
+            }
+        }
+    }
+
+    &__container{
+        height: 80vh;
+        border-radius: 25px;
+    }
+
+    &__title
+    {
+        &-one
+        {
+            font-size: 3rem !important;
+            font-family: $main-font;
+
+            &:hover{
+                color: #a12a4b;
+                transition: color 1s ease-in-out;
+            }
+        }
+    }
+
+    &__btn
+    {
+        &-info
+        {
+            font-family: $btn-font;
+            font-size: 1rem !important;
+            font-weight: 500 !important;
+            letter-spacing: -0.04rem;
+        }
+    }
+
+    &__registration_container{
+        position: sticky;
+        top: 0;
+        right: 5%;
+
+        &-card{
+            padding: 20px !important;
+            border-radius: 15px !important;
+            border: 1px solid black !important;
+
+            &-title
+            {
+                font-family: $main-font;
+                font-size: 1.5rem !important;
+                font-weight: bold !important;
+                text-decoration: #a12a4b underline !important;
+            }
+
+            &-btn
+            {
+                border-radius: 20px !important;
+                width: 100%;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

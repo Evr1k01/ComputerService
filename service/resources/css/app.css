@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.base__app-bar {
+  position: fixed;
+}
+.base__app-bar-row {
+  padding: 0 40px !important;
+}
+.base__app-bar-logo {
+  width: 50px;
+  height: 50px;
+}
+.base__app-bar-logo-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+.base__app-bar-logo-span {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: #a12a4b;
+}
+.base__app-bar-title {
+  color: black;
+  font-family: "Acme", sans-serif;
+  text-decoration: none;
+}
+.base__app-bar-title:hover {
+  border-bottom: 3px solid #a12a4b;
+  transition: border-bottom 0.5s ease-in-out;
+}
+.base__container {
+  height: 80vh;
+  border-radius: 25px;
+}
+.base__title-one {
+  font-size: 3rem !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.base__title-one:hover {
+  color: #a12a4b;
+  transition: color 1s ease-in-out;
+}
+.base__btn-info {
+  font-family: "Acme", sans-serif;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.04rem;
+}
+.base__registration_container {
+  position: sticky;
+  top: 0;
+  right: 5%;
+}
+.base__registration_container-card {
+  padding: 20px !important;
+  border-radius: 15px !important;
+  border: 1px solid black !important;
+}
+.base__registration_container-card-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  text-decoration: #a12a4b underline !important;
+}
+.base__registration_container-card-btn {
+  border-radius: 20px !important;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=app.css.map */
