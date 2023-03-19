@@ -8,7 +8,7 @@
     @if(Auth::user())
         <meta name="auth-token" content="{{\Illuminate\Support\Facades\Session::get('access_token')[0]}}">
     @endif
-    <title>Мастерская @yield('title')</title>
+    <title>Service @yield('title')</title>
 
     @vite(['resources/js/app.js','resources/css/app.css'])
 </head>
