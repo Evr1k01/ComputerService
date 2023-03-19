@@ -15,6 +15,11 @@
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
 }
+@media (max-width: 1000px) {
+  .base__app-bar-logo-title {
+    display: none;
+  }
+}
 .base__app-bar-logo-span {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
@@ -33,6 +38,11 @@
   height: 80vh;
   border-radius: 25px;
 }
+@media (max-width: 700px) {
+  .base__container {
+    height: 45vh !important;
+  }
+}
 .base__title-one {
   font-size: 3rem !important;
   font-family: "Roboto Condensed", sans-serif;
@@ -41,16 +51,31 @@
   color: #a12a4b;
   transition: color 1s ease-in-out;
 }
+@media (max-width: 600px) {
+  .base__title-one {
+    font-size: 2rem !important;
+  }
+}
 .base__btn-info {
   font-family: "Acme", sans-serif;
   font-size: 1rem !important;
   font-weight: 500 !important;
   letter-spacing: -0.04rem;
 }
+@media (max-width: 500px) {
+  .base__btn-info {
+    width: 100%;
+  }
+}
 .base__registration_container {
   position: sticky;
   top: 0;
   right: 5%;
+}
+@media (max-width: 500px) {
+  .base__registration_container {
+    right: 0;
+  }
 }
 .base__registration_container-card {
   padding: 20px !important;

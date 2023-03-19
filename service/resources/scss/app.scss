@@ -21,6 +21,10 @@
             &-title{
                 font-family: $strength-font;
                 font-size: 2rem;
+
+                @media (max-width: 1000px){
+                    display: none;
+                }
             }
 
             &-span{
@@ -47,6 +51,11 @@
     &__container{
         height: 80vh;
         border-radius: 25px;
+
+        @media (max-width: 700px)
+        {
+            height: 45vh !important;
+        }
     }
 
     &__title
@@ -60,6 +69,10 @@
                 color: #a12a4b;
                 transition: color 1s ease-in-out;
             }
+
+            @media (max-width: 600px) {
+                font-size: 2rem !important;
+            }
         }
     }
 
@@ -71,6 +84,11 @@
             font-size: 1rem !important;
             font-weight: 500 !important;
             letter-spacing: -0.04rem;
+
+            @media (max-width: 500px)
+            {
+                width: 100%;
+            }
         }
     }
 
@@ -78,6 +96,10 @@
         position: sticky;
         top: 0;
         right: 5%;
+
+        @media (max-width: 500px) {
+            right: 0;
+        }
 
         &-card{
             padding: 20px !important;
