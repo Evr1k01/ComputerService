@@ -35,23 +35,23 @@
   transition: border-bottom 0.5s ease-in-out;
 }
 .base__container {
-  height: 80vh;
-  border-radius: 25px;
+  padding: 20px !important;
+  border-radius: 25px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px;
 }
-@media (max-width: 700px) {
-  .base__container {
-    height: 45vh !important;
-  }
+.base__container:hover {
+  transition: border 1s ease;
 }
 .base__title-one {
   font-size: 3rem !important;
   font-family: "Roboto Condensed", sans-serif;
 }
 .base__title-one:hover {
-  color: #a12a4b;
+  color: white;
   transition: color 1s ease-in-out;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .base__title-one {
     font-size: 2rem !important;
   }
@@ -61,15 +61,18 @@
   font-size: 1rem !important;
   font-weight: 500 !important;
   letter-spacing: -0.04rem;
+  color: white !important;
+  width: 100% !important;
+  border-radius: 20px !important;
 }
-@media (max-width: 500px) {
+@media (max-width: 960px) {
   .base__btn-info {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .base__registration_container {
   position: sticky;
-  top: 0;
+  top: 10px;
   right: 5%;
 }
 @media (max-width: 500px) {
@@ -92,6 +95,34 @@
   border-radius: 20px !important;
   width: 100%;
   font-size: 1.2rem;
+}
+
+.home__user_card {
+  padding: 20px 20px 20px 10px !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+}
+.home__user_card-title-user {
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  padding: 10px 0;
+}
+@media (max-width: 900px) {
+  .home__user_card-title-user {
+    font-size: 1.8rem;
+    letter-spacing: -0.02rem;
+  }
+}
+.home__user_card-title-price {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+}
+.home__user_card-btn {
+  border-radius: 15px !important;
+  border: 1px solid black !important;
+  font-family: "Acme", sans-serif;
+  letter-spacing: -0.02rem !important;
+  font-size: 1rem !important;
 }
 
 /*# sourceMappingURL=app.css.map */
